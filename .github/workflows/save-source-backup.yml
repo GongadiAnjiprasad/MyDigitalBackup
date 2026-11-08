@@ -1,6 +1,7 @@
 name: Save MAP132 DIGITALS source backup
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
